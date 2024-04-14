@@ -3,11 +3,11 @@
 import inquirer from "inquirer";
 
 const asnwer = await inquirer.prompt([
-    {message: "please enter first number",
+    {message: "please enter your first number",
     type:"number",
     name:"firstnumber"},
     {
-        message:"please enter second number",
+        message:"please enter your second number",
         type:"number",
         name:"secondnumber"},
         {
